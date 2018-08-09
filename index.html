@@ -249,16 +249,27 @@ DESCRITPTION
     };
     downloadLnk.addEventListener('click', download, false);
 
+
+
     function draw(event) {
       var canvas = document.getElementById("input_canvas");
       var ctx = canvas.getContext("2d");
-      var text = document.getElementById('try_input').value;
+      var text = document.getElementById('try_input').value + '\nakurucon.com';;
+      // var text = this.value + '5';
+      var x = 760;
+      var y = 200;
+      var lineheight = 150;
+      var lines = text.split('\n');
       ctx.fillStyle = "#d75e07";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       ctx.fillStyle = "white";
       ctx.font = "90px Galle";
-      ctx.fillText(text, 750, 245);
+      // ctx.fillText(text, 750, 245);
       ctx.textAlign = "center";
+
+      for (var i = 0; i<lines.length; i++)
+          ctx.fillText(lines[i], x, y + (i*lineheight) );
+
     }
     window.addEventListener("keyup", draw, true);
   </script>
