@@ -1,0 +1,247 @@
+/*
+Amma Project Microsite
+
+ * --------------------------------------- */
+
+@CHARSET "ISO-8859-1";
+@import url(http://fonts.googleapis.com/earlyaccess/notosanssinhala.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstamil.css);
+/* Reset CSS
+ * --------------------------------------- */
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+caption, th {
+  text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+  color: #444;
+}
+
+q:before, q:after {
+  content: '';
+}
+
+abbr, acronym {
+  border: 0;
+}
+
+/* Fonts
+ * --------------------------------------- */
+
+
+/* Webfont: Galle-Regular */
+
+@font-face {
+  font-family: "Galle";
+  src: url("../fonts/Galle.woff2") format("woff2"), url("../fonts/Galle.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* --------------------------------------- */
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #333;
+}
+
+.wrap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  position: relative;
+}
+
+h1.en {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1em;
+}
+
+p.si {
+font-family: 'Noto Sans Sinhala', sans-serif;
+}
+
+.section {
+  padding: 40px;
+}
+
+ul {
+  list-style: square;
+  text-align: left;
+}
+
+::-webkit-input-placeholder {
+  padding-top: 5px;
+  color: #D46B6B;
+  font-size: 20px;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  padding-top: 5px;
+  color: #BF5E5E;
+  font-size: 20px;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  padding-top: 5px;
+  color: #BF5E5E;
+  font-size: 20px;
+}
+
+:-ms-input-placeholder {
+  padding-top: 5px;
+  color: #BF5E5E;
+  font-size: 20px;
+}
+
+/* home
+-----------------------------------------*/
+
+.circle {
+  font-family: '';
+  font-size: 72px;
+  color: #FFF;
+  border-radius: 50%;
+  width: 300px;
+  background: #F00;
+  padding-top: 99px;
+  height: 300px;
+  margin: 0 auto;
+  /* width and height can be anything, as long as they're equal */
+}
+
+.home {
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top left;
+}
+
+
+/* Test area
+-----------------------------------------*/
+#testarea{
+background: url(../images/bg.jpg);
+}
+#input_canvas {
+  max-width: 100%;
+  height: auto;
+  background: url(../images/ex_1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  margin: 0 auto;
+display: block;
+}
+
+#try_input {
+  width: 100%;
+  height: 60px;
+  font-family: 'Noto Sans Sinhala', sans-serif;
+  text-align: center;
+  clear: both;
+  display: block;
+  font-size: 30px;
+  background: #f3f3f3;
+  color: #444444;
+  border: None;
+}
+
+#testcontrol {
+
+}
+
+.counter{
+    float: right;
+    font-family: 'Noto Sans Sinhala', sans-serif;
+}
+
+#downloadLnk{
+text-align:center;
+}
+
+#showDiv a {
+  background: #4D4D4D;
+  padding: 20px;
+  height: 60px;
+  display: block;
+  color: #FFF;
+}
+
+#showDiv a:hover {
+  background: #444;
+  color: #fff;
+  cursor: pointer;
+  cursor: hand;
+}
+
+#showDiv a:visited {
+  color: #000;
+}
+
+/* projects area
+-----------------------------------------*/
+ul.proejcts li {
+float: left;
+list-style: none;
+width: 25%;
+text-align: center;
+}
+
+.hideme {
+  display: none;
+}
+
+
+.moonlogo{
+  float: left;
+}
