@@ -1,5 +1,5 @@
 /*
-Amma Project Microsite
+ceylon-dutch-press Project Microsite
 
  * --------------------------------------- */
 
@@ -244,4 +244,20 @@ text-align: center;
 
 .moonlogo{
   float: left;
+}
+
+.btn img {
+width: 60px;
+float: left;
+padding-right: 10px;
+
+}
+.btn:hover{
+  margin: 0 auto;
+      display: block;
+      width: 231px;
+      text-align: center;
+      border: 5px solid;
+      padding: 10px;
+      font-size: 18pt;    
 }
